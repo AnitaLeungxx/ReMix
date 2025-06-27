@@ -127,7 +127,25 @@
   </div>
 </section>
 <!-- End paper abstract -->
-
+  
+<!-- Method Overview -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Method Overview</h2>
+    <div class="content has-text-centered">
+      <img src="static/images/method.png" alt="Method Overview" style="max-width:100%;">
+      <p>
+        Starting from a base model, 
+        (1) the prevalent on-policy PPG methods (e.g., PPO, GRPO) yield a stable and effective training process, yet exhibit inefficient data utilization (i.e., the <span style="color:orange;">orange</span> waved curve). 
+        (2) Off-policy PPG offers appealing potential in data efficiency. However, naively adopting off-policy PPG leads to a training collapse (i.e., the less waved <span style="color:green;">green</span> curve). 
+        (3) To strike a balance, we introduce Mix-PPG, which manages to boost early-stage performance but still faces a slow asymptotic improvement (denoted by the <span style="color:cyan;">cyan</span> curve) and even a collapse when adopting a high UTD ratio (i.e., the straight <span style="color:OliveGreen;">olive green</span> curve). 
+        (4) To this end, we propose policy reincarnation and introduce <strong>ReMix</strong>. ReMix seamlessly takes advantage of both the efficient early-stage training of Mix-PPG and the stable asymptotic improvement of on-policy PPG (i.e., the fusion of the <span style="color:cyan;">cyan</span> and <span style="color:red;">red</span> curves), thereby achieving significantly better efficiency at almost no compromise of final performance.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End Method Overview -->
+  
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
