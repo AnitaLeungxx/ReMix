@@ -131,7 +131,7 @@
 <!-- Method Overview -->
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Method Overview</h2>
+    <h2 class="title is-3">RFT for LLMs with different proximal policy gradient (PPG) method</h2>
     <div class="content has-text-centered">
       <img src="static/images/method.png" alt="Method Overview" style="max-width:100%;">
       <p>
@@ -160,23 +160,23 @@
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/Main.png" alt="MY ALT TEXT"/>
+        <img src="static/images/ppoours_01.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Training Efficiency Comparison for ReMix-PPO and PPO (1.5B) on MATH500. We evaluate training efficiency across three dimensions: rollout data volume, training steps, and training duration. ReMix-PPO achieves a score above 0.80, around 3x to 5x faster than PPO.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/Main.png" alt="MY ALT TEXT"/>
+        <img src="static/images/onoff.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         Training Dynamics regarding Importance Sampling Ratio, Accuracy, and Response Length under Varying Proportions of Off-policy Data p for Mix-PPG. Leveraging more off-policy data leads to a larger policy distribution shift, a faster early boost in accuracy yet worse later-stage performance, and a shorter response length.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/Main.png" alt="MY ALT TEXT"/>
+      <img src="static/images/response.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Training Dynamics regarding Accuracy, Response Length, Self-reflection Rate for On-policy v.s. Off-policy Training. Mix-PPG significantly increases the early-stage training efficiency, while showing a rapid decrease in response length and self-reflection rate. An increased UTD ratio further enhances the efficiency, but results in a severe degradation in accuracy. ReMix shows a merged learning behavior and perfectly combines the superior efficiency and the asymptotic improvement, thanks to the policy reincarnation.
       </h2>
     </div>
   </div>
